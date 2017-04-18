@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181B74BA1EA5E57100551F07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B74B91EA5E57100551F07 /* main.m */; };
+		181B74BD1EA5E57100551F07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B74BC1EA5E57100551F07 /* AppDelegate.m */; };
+		181B74C01EA5E57100551F07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B74BF1EA5E57100551F07 /* ViewController.m */; };
+		181B74C31EA5E57100551F07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B74C11EA5E57100551F07 /* Main.storyboard */; };
+		181B74C51EA5E57100551F07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181B74C41EA5E57100551F07 /* Assets.xcassets */; };
+		181B74C81EA5E57100551F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B74C61EA5E57100551F07 /* LaunchScreen.storyboard */; };
+		181B74D31EA5E57100551F07 /* CreatCGPDFContextRefTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B74D21EA5E57100551F07 /* CreatCGPDFContextRefTests.m */; };
+		181B74DE1EA5E57100551F07 /* CreatCGPDFContextRefUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B74DD1EA5E57100551F07 /* CreatCGPDFContextRefUITests.m */; };
+		181B74ED1EA5E58D00551F07 /* MyQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B74EC1EA5E58D00551F07 /* MyQuartzView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181B74CF1EA5E57100551F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181B74AD1EA5E57100551F07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181B74B41EA5E57100551F07;
+			remoteInfo = CreatCGPDFContextRef;
+		};
+		181B74DA1EA5E57100551F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181B74AD1EA5E57100551F07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181B74B41EA5E57100551F07;
+			remoteInfo = CreatCGPDFContextRef;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181B74B51EA5E57100551F07 /* CreatCGPDFContextRef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreatCGPDFContextRef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181B74B91EA5E57100551F07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181B74BB1EA5E57100551F07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181B74BC1EA5E57100551F07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181B74BE1EA5E57100551F07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		181B74BF1EA5E57100551F07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		181B74C21EA5E57100551F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181B74C41EA5E57100551F07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181B74C71EA5E57100551F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181B74C91EA5E57100551F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181B74CE1EA5E57100551F07 /* CreatCGPDFContextRefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatCGPDFContextRefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181B74D21EA5E57100551F07 /* CreatCGPDFContextRefTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreatCGPDFContextRefTests.m; sourceTree = "<group>"; };
+		181B74D41EA5E57100551F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181B74D91EA5E57100551F07 /* CreatCGPDFContextRefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatCGPDFContextRefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181B74DD1EA5E57100551F07 /* CreatCGPDFContextRefUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreatCGPDFContextRefUITests.m; sourceTree = "<group>"; };
+		181B74DF1EA5E57100551F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181B74EB1EA5E58D00551F07 /* MyQuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQuartzView.h; sourceTree = "<group>"; };
+		181B74EC1EA5E58D00551F07 /* MyQuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQuartzView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181B74B21EA5E57100551F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B74CB1EA5E57100551F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B74D61EA5E57100551F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181B74AC1EA5E57100551F07 = {
+			isa = PBXGroup;
+			children = (
+				181B74B71EA5E57100551F07 /* CreatCGPDFContextRef */,
+				181B74D11EA5E57100551F07 /* CreatCGPDFContextRefTests */,
+				181B74DC1EA5E57100551F07 /* CreatCGPDFContextRefUITests */,
+				181B74B61EA5E57100551F07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181B74B61EA5E57100551F07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181B74B51EA5E57100551F07 /* CreatCGPDFContextRef.app */,
+				181B74CE1EA5E57100551F07 /* CreatCGPDFContextRefTests.xctest */,
+				181B74D91EA5E57100551F07 /* CreatCGPDFContextRefUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181B74B71EA5E57100551F07 /* CreatCGPDFContextRef */ = {
+			isa = PBXGroup;
+			children = (
+				181B74BB1EA5E57100551F07 /* AppDelegate.h */,
+				181B74BC1EA5E57100551F07 /* AppDelegate.m */,
+				181B74BE1EA5E57100551F07 /* ViewController.h */,
+				181B74BF1EA5E57100551F07 /* ViewController.m */,
+				181B74EB1EA5E58D00551F07 /* MyQuartzView.h */,
+				181B74EC1EA5E58D00551F07 /* MyQuartzView.m */,
+				181B74C11EA5E57100551F07 /* Main.storyboard */,
+				181B74C41EA5E57100551F07 /* Assets.xcassets */,
+				181B74C61EA5E57100551F07 /* LaunchScreen.storyboard */,
+				181B74C91EA5E57100551F07 /* Info.plist */,
+				181B74B81EA5E57100551F07 /* Supporting Files */,
+			);
+			path = CreatCGPDFContextRef;
+			sourceTree = "<group>";
+		};
+		181B74B81EA5E57100551F07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181B74B91EA5E57100551F07 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181B74D11EA5E57100551F07 /* CreatCGPDFContextRefTests */ = {
+			isa = PBXGroup;
+			children = (
+				181B74D21EA5E57100551F07 /* CreatCGPDFContextRefTests.m */,
+				181B74D41EA5E57100551F07 /* Info.plist */,
+			);
+			path = CreatCGPDFContextRefTests;
+			sourceTree = "<group>";
+		};
+		181B74DC1EA5E57100551F07 /* CreatCGPDFContextRefUITests */ = {
+			isa = PBXGroup;
+			children = (
+				181B74DD1EA5E57100551F07 /* CreatCGPDFContextRefUITests.m */,
+				181B74DF1EA5E57100551F07 /* Info.plist */,
+			);
+			path = CreatCGPDFContextRefUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181B74B41EA5E57100551F07 /* CreatCGPDFContextRef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181B74E21EA5E57100551F07 /* Build configuration list for PBXNativeTarget "CreatCGPDFContextRef" */;
+			buildPhases = (
+				181B74B11EA5E57100551F07 /* Sources */,
+				181B74B21EA5E57100551F07 /* Frameworks */,
+				181B74B31EA5E57100551F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreatCGPDFContextRef;
+			productName = CreatCGPDFContextRef;
+			productReference = 181B74B51EA5E57100551F07 /* CreatCGPDFContextRef.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181B74CD1EA5E57100551F07 /* CreatCGPDFContextRefTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181B74E51EA5E57100551F07 /* Build configuration list for PBXNativeTarget "CreatCGPDFContextRefTests" */;
+			buildPhases = (
+				181B74CA1EA5E57100551F07 /* Sources */,
+				181B74CB1EA5E57100551F07 /* Frameworks */,
+				181B74CC1EA5E57100551F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181B74D01EA5E57100551F07 /* PBXTargetDependency */,
+			);
+			name = CreatCGPDFContextRefTests;
+			productName = CreatCGPDFContextRefTests;
+			productReference = 181B74CE1EA5E57100551F07 /* CreatCGPDFContextRefTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		181B74D81EA5E57100551F07 /* CreatCGPDFContextRefUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181B74E81EA5E57100551F07 /* Build configuration list for PBXNativeTarget "CreatCGPDFContextRefUITests" */;
+			buildPhases = (
+				181B74D51EA5E57100551F07 /* Sources */,
+				181B74D61EA5E57100551F07 /* Frameworks */,
+				181B74D71EA5E57100551F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181B74DB1EA5E57100551F07 /* PBXTargetDependency */,
+			);
+			name = CreatCGPDFContextRefUITests;
+			productName = CreatCGPDFContextRefUITests;
+			productReference = 181B74D91EA5E57100551F07 /* CreatCGPDFContextRefUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181B74AD1EA5E57100551F07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Chuckie;
+				TargetAttributes = {
+					181B74B41EA5E57100551F07 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 9952GK694Z;
+						ProvisioningStyle = Automatic;
+					};
+					181B74CD1EA5E57100551F07 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 9952GK694Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 181B74B41EA5E57100551F07;
+					};
+					181B74D81EA5E57100551F07 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 9952GK694Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 181B74B41EA5E57100551F07;
+					};
+				};
+			};
+			buildConfigurationList = 181B74B01EA5E57100551F07 /* Build configuration list for PBXProject "CreatCGPDFContextRef" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181B74AC1EA5E57100551F07;
+			productRefGroup = 181B74B61EA5E57100551F07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181B74B41EA5E57100551F07 /* CreatCGPDFContextRef */,
+				181B74CD1EA5E57100551F07 /* CreatCGPDFContextRefTests */,
+				181B74D81EA5E57100551F07 /* CreatCGPDFContextRefUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181B74B31EA5E57100551F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B74C81EA5E57100551F07 /* LaunchScreen.storyboard in Resources */,
+				181B74C51EA5E57100551F07 /* Assets.xcassets in Resources */,
+				181B74C31EA5E57100551F07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B74CC1EA5E57100551F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B74D71EA5E57100551F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181B74B11EA5E57100551F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B74C01EA5E57100551F07 /* ViewController.m in Sources */,
+				181B74ED1EA5E58D00551F07 /* MyQuartzView.m in Sources */,
+				181B74BD1EA5E57100551F07 /* AppDelegate.m in Sources */,
+				181B74BA1EA5E57100551F07 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B74CA1EA5E57100551F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B74D31EA5E57100551F07 /* CreatCGPDFContextRefTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B74D51EA5E57100551F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B74DE1EA5E57100551F07 /* CreatCGPDFContextRefUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181B74D01EA5E57100551F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181B74B41EA5E57100551F07 /* CreatCGPDFContextRef */;
+			targetProxy = 181B74CF1EA5E57100551F07 /* PBXContainerItemProxy */;
+		};
+		181B74DB1EA5E57100551F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181B74B41EA5E57100551F07 /* CreatCGPDFContextRef */;
+			targetProxy = 181B74DA1EA5E57100551F07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181B74C11EA5E57100551F07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181B74C21EA5E57100551F07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181B74C61EA5E57100551F07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181B74C71EA5E57100551F07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181B74E01EA5E57100551F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		181B74E11EA5E57100551F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181B74E31EA5E57100551F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				INFOPLIST_FILE = CreatCGPDFContextRef/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AIATechnologySharedServices.CreatCGPDFContextRef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		181B74E41EA5E57100551F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				INFOPLIST_FILE = CreatCGPDFContextRef/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AIATechnologySharedServices.CreatCGPDFContextRef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		181B74E61EA5E57100551F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				INFOPLIST_FILE = CreatCGPDFContextRefTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AIATechnologySharedServices.CreatCGPDFContextRefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreatCGPDFContextRef.app/CreatCGPDFContextRef";
+			};
+			name = Debug;
+		};
+		181B74E71EA5E57100551F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				INFOPLIST_FILE = CreatCGPDFContextRefTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AIATechnologySharedServices.CreatCGPDFContextRefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreatCGPDFContextRef.app/CreatCGPDFContextRef";
+			};
+			name = Release;
+		};
+		181B74E91EA5E57100551F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				INFOPLIST_FILE = CreatCGPDFContextRefUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AIATechnologySharedServices.CreatCGPDFContextRefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CreatCGPDFContextRef;
+			};
+			name = Debug;
+		};
+		181B74EA1EA5E57100551F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				INFOPLIST_FILE = CreatCGPDFContextRefUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AIATechnologySharedServices.CreatCGPDFContextRefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CreatCGPDFContextRef;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181B74B01EA5E57100551F07 /* Build configuration list for PBXProject "CreatCGPDFContextRef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181B74E01EA5E57100551F07 /* Debug */,
+				181B74E11EA5E57100551F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181B74E21EA5E57100551F07 /* Build configuration list for PBXNativeTarget "CreatCGPDFContextRef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181B74E31EA5E57100551F07 /* Debug */,
+				181B74E41EA5E57100551F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		181B74E51EA5E57100551F07 /* Build configuration list for PBXNativeTarget "CreatCGPDFContextRefTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181B74E61EA5E57100551F07 /* Debug */,
+				181B74E71EA5E57100551F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		181B74E81EA5E57100551F07 /* Build configuration list for PBXNativeTarget "CreatCGPDFContextRefUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181B74E91EA5E57100551F07 /* Debug */,
+				181B74EA1EA5E57100551F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181B74AD1EA5E57100551F07 /* Project object */;
+}
